@@ -12,7 +12,7 @@ document.getElementById("bookingForm").addEventListener("submit", function(event
     }
 
     const formData = new FormData(this);
-    fetch('https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbwgE3kaWlh5ZVdbzMHrmLYdfsVMKPwZ4MC5UhPUzw2WZvXrDTBfhvGxCxjpFM9DcAKqog/exec', {
         method: 'POST',
         body: formData,
     })
