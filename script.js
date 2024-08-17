@@ -6,7 +6,7 @@ document.getElementById("bookingForm").addEventListener("submit", function(event
     const day = date.getDay();
     const holidays = ["2024-01-01", "2024-07-04", "2024-12-25"]; // Add more holidays here
 
-    if (day === 2 || day === 4 || day === 6 || day === 0 || holidays.includes(dateInput)) {
+    if (day === 3 || day === 5 || day === 7 || day === 0 || holidays.includes(dateInput)) {
         alert("Booking is not allowed on this date.");
         return;
     }
