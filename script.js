@@ -16,7 +16,7 @@ document.getElementById("bookingForm").addEventListener("submit", function(event
         method: 'POST',
         body: formData,
         redirect: "follow"
-        mode: 'no-cors'
+        
     })
     .then(response => response.json())
     .then(data => {
