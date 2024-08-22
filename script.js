@@ -15,6 +15,7 @@ document.getElementById("bookingForm").addEventListener("submit", function(event
     fetch('https://script.google.com/macros/s/AKfycbwgE3kaWlh5ZVdbzMHrmLYdfsVMKPwZ4MC5UhPUzw2WZvXrDTBfhvGxCxjpFM9DcAKqog/exec', {
         method: 'POST',
         body: formData,
+        redirect: "follow"
     })
     .then(response => response.json())
     .then(data => {
